@@ -1,4 +1,7 @@
 # Covid_Restaurant
+# Deploy site
+
+[Resto Frontend Guys](https://resto-frontend-guys.netlify.app/)
 
 ## Covid Restaurant Frontend
 
