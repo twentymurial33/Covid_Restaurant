@@ -1,0 +1,16 @@
+.navbarContainer {
+  background-color: #502314;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  color: white;
+  margin: 0 auto;
+}
