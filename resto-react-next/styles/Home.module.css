@@ -1,0 +1,85 @@
+.container {
+  min-height: 100vh;
+  /* padding: 0 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images/resto-small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcomeTitle {
+  margin: 0;
+  font-size: 5rem;
+  color: white;
+}
+.welcomeSubTitle {
+  margin-top: 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.btnOrder {
+  padding: 0.5rem 2rem;
+  /* background: red; */
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px;
+  opacity: 0.8;
+}
+.btnOrder:hover {
+  opacity: 1;
+}
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    background-image: url("/images/resto-medium.jpg");
+  }
+}
